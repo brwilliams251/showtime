@@ -1,0 +1,203 @@
+body	{
+	background-color: #151515;
+	color: #D9284B;
+}
+header {font-size: 30px;
+	
+		background-position: left;
+		background-image: url(images/showstick.png), linear-gradient(#808080, #151515);
+		background-repeat: no-repeat;
+		height: 200px;
+	
+}
+h1		{
+padding-left: 150px;
+		float: left;
+}
+#introtext	{
+	padding-top: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
+		margin-left: 500px;
+		margin-right: 200px;
+}
+#text2		{
+	padding-top: 13em;
+	margin-left: 100px;
+	margin-right: 800px;
+}
+#text3		{
+	padding-top: 12em;
+		padding-left: 2em;
+		padding-right: 2em;
+		margin-left: 500px;
+		margin-right: 200px;
+}
+#location	{
+	padding-left: 30em;
+	padding-top: 1em;
+	font-weight: bold;
+	text-align: center;
+	font-size: .7em;
+}
+#machines	{
+	display: inline;
+	float: left;
+	padding-top: 1em;
+	padding-left: 3em;
+}
+#drinks		{
+	display: inline;
+	float: right;
+	padding-right: 8em;
+	padding-top: 10em;
+}
+#players	{
+	
+	display: inline;
+	float: left;
+	padding-top: 10em;
+	padding-left: 3em;
+}
+* 		{
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+}
+footer	{
+	margin-top: 18em;
+	background-color: #808080;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		padding: 1em;
+}
+nav	{
+	padding-top: 50px;
+	padding-left: 800px;
+	color: #D9284B;
+}
+
+nav a:link	{
+	 color: #D9284B
+}
+nav a:visited	{
+	color: #D9284B;
+}
+nav a:hover	{
+	color: white;
+}
+#wrap {
+   width:750px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:300px;
+	text-align: left;
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+#gametext	{
+	margin-top: 50px;
+	text-align: center;
+}
+#menu	{
+	margin-right: 50px;
+	margin-left: 300px;
+	font-size: 1.5em;
+}
+#events	{
+	float: left;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+#eventtext	{
+	float: right;
+	margin-right: 350px;
+	padding-top: 200px;
+}
+#page	{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media only screen and (max-width: 1024px)	{
+body	{
+		margin: 0px;
+		padding: 0px;
+}
+main	{
+		padding-top: 2.5em;
+		padding-bottom: 2.5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		margin: 0px;
+		font-size: 90%;
+		float: none;
+}
+
+h2		{
+		padding-left: 2em;
+		padding-right: 2em;
+}
+h3		{
+		padding-left: 2em;
+		padding-right: 2em;
+}
+p		{
+		padding-left: 2em;
+		padding-right: 2em;
+}
+#machines	{
+	float: none;
+	display:none;
+}
+#introtext	{
+	margin: auto;
+}
+#drinks	{
+	float: none;
+	display:none;
+}
+#players	{
+	float: none;
+	display:none;
+}
+#text2	{
+	margin: auto;
+}
+#text3	{
+	margin: auto;
+}
+nav		{
+	margin: auto;
+}
+#events	{
+	display: none;
+	float: none;
+}
+}
+@media only all and (max-width: 768px)	{
+h1		{
+		font-size: 2em;
+		padding-top: 0.25em;
+		padding-left: 1.5em;
+		width: 85%;
+		text-align: center;
+}
+nav a	{
+		padding: 0.5em;
+		width: 45%;
+		float: left;
+		min-width: 6em;
+		margin-left: 0.5em;
+}
+main	{
+		padding-top: 0px;
+}
+
+}
